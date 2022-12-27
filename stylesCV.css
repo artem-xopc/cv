@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(45, 45, 45);
+    /* background-color: white; */
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+hr {
+    background-color: goldenrod;
+    color: goldenrod;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.6);
+}
+
+p {
+    margin: 0;
+}
+
+/* Box style */
+.container {
+    max-width: 750px;
+}
