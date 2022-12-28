@@ -12,6 +12,20 @@ h2 {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+a:active {
+    color: goldenrod;
+}
+
 hr {
     background-color: goldenrod;
     color: goldenrod;
@@ -30,4 +44,14 @@ p {
 /* Box style */
 .container {
     max-width: 750px;
+    margin: auto;
 }
+
+/* .social {
+    background-color: black;
+    margin: 5px;
+    padding: 15px;
+    border: 5px solid yellow;
+    border-top-width: 15px;
+    border-radius: 5px;
+} */
