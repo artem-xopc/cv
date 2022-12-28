@@ -1,0 +1,228 @@
+/* index HTML */
+
+body {
+    background-color: rgb(45, 45, 45);
+    /* background-color: white; */
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+a:active {
+    color: goldenrod;
+}
+
+.username {
+    text-align: center;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.work {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    border: 1px solid gold;
+    text-align: center;
+}
+
+.work tr:nth-child(2), 
+tr:nth-child(3) {
+    color: #86898f;
+}
+
+.work tr:nth-child(2):hover, tr:nth-child(3):hover {
+    color: white;
+    border: 1px solid gold;
+}
+
+p {
+    margin: 0;
+    text-indent: 25px;
+}
+
+hr {
+    border: 1px solid gold;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.connect {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Box style */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.info {
+    background-color: rgb(34, 34, 34);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.username-info {
+    display: inline-block;
+    text-align: left;
+}
+
+@media (max-width: 700px) {
+    .info-content {
+        display: block;
+        text-align: center;
+    }
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info:hover {
+    border: 3px solid gold;
+}
+
+.techSkills {
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+.techSkills:hover {
+    border: 2px solid gold;
+}
+
+.ed {
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+}
+
+.ed:hover {
+    border: 1px solid gold;
+}
+
+.edu {
+    text-align: center;
+}
+
+.hobby-info {
+    text-align: center;
+}
+
+.hobby-content {
+    display: flex;
+    width: 100%;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: rgb(34, 34, 34);
+}
+
+.hobby-content:hover {
+    border: 1px solid gold;
+}
+
+.youtube {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34);
+}
+
+.youtube:hover {
+    border: 1px solid gold;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gold;
+    outline: none;
+    color: beige;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+} 
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin: 0;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    color: gold;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+/* YouTube HTML */
+
+.video {
+    background-color: rgb(34, 34, 34);
+    margin: 15px;
+    padding: 15px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+.video:hover {
+    border: 3px solid gold;
+}
