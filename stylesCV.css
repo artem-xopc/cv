@@ -63,7 +63,7 @@ p {
 
 hr {
     border: 1px solid gold;
-    height: 2px;
+    height: 1.5px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -76,18 +76,25 @@ hr {
 /* Box style */
 
 .container {
-    max-width: 750px;
+    max-width: 1050px;
     margin: auto;
 }
 
 .info {
-    background-color: rgb(34, 34, 34);
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px;
-    border: 3px solid goldenrod;
-    border-radius: 10px;
+    border-bottom: 1px solid rgb(45, 45, 45);
 }
+
+@keyframes changeColor {
+    0% {
+        border-bottom: 1px solid rgb(45, 45, 45);
+    }
+    100% {
+        border-bottom: 1px solid gold;
+    }
+  }
 
 .info-content {
     text-align: center;
@@ -110,35 +117,30 @@ hr {
 }
 
 .info:hover {
-    border: 3px solid gold;
+    border-bottom: 1px solid gold;
+    animation: changeColor 1s;
 }
 
 .techSkills {
-    background-color: rgb(34, 34, 34);
     margin-bottom: 15px;
     padding: 15px;
-    border: 2px solid goldenrod;
-    border-radius: 10px;
+    border-bottom: 1px solid rgb(45, 45, 45);
 }
 
 .techSkills:hover {
-    border: 2px solid gold;
+    border-bottom: 1px solid gold;
+    animation: changeColor 1s;
 }
 
 .ed {
-    background-color: rgb(34, 34, 34);
     margin-bottom: 15px;
     padding: 15px;
-    border: 1px solid goldenrod;
-    border-radius: 10px;
+    border-bottom: 1px solid rgb(45, 45, 45);
 }
 
 .ed:hover {
-    border: 1px solid gold;
-}
-
-.edu {
-    text-align: center;
+    border-bottom: 1px solid gold;
+    animation: changeColor 1s;
 }
 
 .hobby-info {
@@ -154,23 +156,21 @@ hr {
     background-color: rgb(34, 34, 34);
 }
 
+.portfolio {
+    padding-right: 15px;
+}
+
 .hobby-content:hover {
     border: 1px solid gold;
 }
 
-.youtube {
+/* .portfolio {
     margin-top: 15px;
     margin-bottom: 15px;
-    text-align: center;
     padding-bottom: 20px;
-    border: 1px solid goldenrod;
-    border-radius: 5px;
-    background-color: rgb(34, 34, 34);
-}
+} */
 
-.youtube:hover {
-    border: 1px solid gold;
-}
+
 
 .form-group label {
     display: block;
@@ -207,6 +207,7 @@ hr {
 .btn {
     width: 150px;
     height: 50px;
+    align-items: center;
     background-color: rgb(34, 34, 34);
     color: gold;
     border: 1px solid gold;
