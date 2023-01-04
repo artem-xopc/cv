@@ -164,11 +164,11 @@ hr {
     border: 1px solid gold;
 }
 
-/* .portfolio {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-bottom: 20px;
-} */
+.tel {
+    width: 50px;
+    display: grid;
+    position: calc(50%);
+}
 
 
 
