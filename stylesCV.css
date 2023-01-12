@@ -166,12 +166,44 @@ hr {
 
 .tel {
     width: 50px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.footer_line {
+    width: 100%;
+    height: 10px;
+    color: #000;
+    border: none;
+}
+
+.footer {
+    border-bottom: 1px solid gold;
+}
+
+.footer_content {
     display: grid;
-    position: calc(50%);
+    grid-template-areas: "teleg vkon git youtube letres";
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer_content p {
+    margin-bottom: 15px;    
+}
+
+.footer_content img {
+    width: 50px;
+    padding: 15px;
+}
+
+.git {
+    width: 50px;
 }
 
 
-
+/* Блок стилей для формы обратной связи */
 .form-group label {
     display: block;
     font-size: 14px;
@@ -212,18 +244,4 @@ hr {
     color: gold;
     border: 1px solid gold;
     cursor: pointer;
-}
-
-/* YouTube HTML */
-
-.video {
-    background-color: rgb(34, 34, 34);
-    margin: 15px;
-    padding: 15px;
-    border: 3px solid goldenrod;
-    border-radius: 10px;
-}
-
-.video:hover {
-    border: 3px solid gold;
 }
