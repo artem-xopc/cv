@@ -9,6 +9,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+::selection {
+    background: goldenrod;
+    }
+
 h1,
 h2 {
     color: white;
@@ -127,6 +131,11 @@ hr {
     border-bottom: 1px solid rgb(45, 45, 45);
 }
 
+.separate_p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 .techSkills:hover {
     border-bottom: 1px solid gold;
     animation: changeColor 1s;
@@ -143,25 +152,15 @@ hr {
     animation: changeColor 1s;
 }
 
-.hobby-info {
+.soc {
+    margin: auto;
     text-align: center;
+    grid-area: soc;
 }
 
-.hobby-content {
-    display: flex;
-    width: 100%;
-    border: 1px solid goldenrod;
-    border-radius: 5px;
-    margin-right: 20px;
-    background-color: rgb(34, 34, 34);
-}
-
-.portfolio {
-    padding-right: 15px;
-}
-
-.hobby-content:hover {
-    border: 1px solid gold;
+.none_pad {
+    text-indent: 15px;
+    margin-bottom: 5px;
 }
 
 .tel {
@@ -200,6 +199,7 @@ hr {
 
 .git {
     width: 50px;
+    height: 50px;
 }
 
 
