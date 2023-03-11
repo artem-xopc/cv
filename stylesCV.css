@@ -10,7 +10,8 @@ body {
 }
 
 ::selection {
-    background: goldenrod;
+    background: gold;
+    color: #000;
     }
 
 h1,
@@ -132,8 +133,8 @@ hr {
 }
 
 .separate_p {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .techSkills:hover {
@@ -197,9 +198,63 @@ hr {
     padding: 15px;
 }
 
-.git {
-    width: 50px;
-    height: 50px;
+@keyframes changeBorderColor {
+    0% {
+        border: 1px solid rgb(45, 45, 45);
+        background: rgb(45, 45, 45);
+    }
+    100% {
+        border: 1px solid gold;
+        background: gold;
+    }
+}
+
+.content__teleg {
+    margin-bottom: 15px;
+    border: 1px solid rgb(45, 45, 45);
+}
+.content__teleg:hover {
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    background: gold;
+    border-radius: 10px;
+    animation: changeBorderColor 1s;
+}
+
+.content__vk {
+    margin-bottom: 15px;
+    border: 1px solid rgb(45, 45, 45);
+}
+.content__vk:hover {
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    background: gold;
+    border-radius: 10px;
+    animation: changeBorderColor 1s;
+}
+
+.content__git {
+    margin-bottom: 15px;
+    border: 1px solid rgb(45, 45, 45);
+}
+.content__git:hover {
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    background: gold;
+    border-radius: 10px;
+    animation: changeBorderColor 1s;
+}
+
+.content__yt {
+    margin-bottom: 15px;
+    border: 1px solid rgb(45, 45, 45);
+}
+.content__yt:hover {
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    background: gold;
+    border-radius: 10px;
+    animation: changeBorderColor 1s;
 }
 
 

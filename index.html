@@ -42,7 +42,9 @@
       <hr />
 
       <div class="info">
+        <h3>Обо мне</h3>
         <p>
+          
           Я, Junior JavaScript Frontend Developer, обладающий всеми необходимыми
           навыками для успешного ведения деятельности в IT сфере.
         </p>
@@ -61,12 +63,13 @@
       <div class="techSkills">
         <h3>Технические навыки</h3>
         <div>
-          <p>- Язык программирования: JavaScript;</p>
-          <p>
-            - Технологии и фреймворки: HTML5, CSS3, SASS, ReactJS, NodeJS,
-            система контроля версий Git, Bootstrap;
-          </p>
-          <p>- Базы данных: MongoDB, PostgreSQL;</p>
+          <p>- Язык программирования: JavaScript, TypeScript;</p>
+          <h4>
+            Технологии и фреймворки:
+          </h3>
+          <p>- Для front-end: HTML5, CSS3, SCSS, ReactJS, Bootstrap</p>
+          <p>- Для back-end: NodeJS, Postman, </p>
+          <p>- Базы данных и другие: MongoDB, PostgreSQL, система контроля версий Git;</p>
           <p>- IDE: VSCode.</p>
           <div class="separate_p"></div>
           <p>Для разработки дизайна использую: Photoshop, Figma.</p>
@@ -107,31 +110,42 @@
 
       <hr />
 
-      <div class="social">
         <div class="port">
             <h3 align="center">Моё портфолио</h3>
+
+            <h4>
+              Главные личные проекты:
+            </h4>
             <div>
               <div>
                 <p class="none_pad"> - <a href="/" target="_blank">[netstalker] (в разработке)</a> 
-                -- Данное приложения является Pet проектом, который призван отразить максимальное кол-во мои знаний
-                    в среде Web разработки. Приложение пишется на React JS с использованием Bootstrap для стилизации. 
-                    В будущем планируется реализовать регистрацию и авторизацию на сервисе, полноценные личные кабинеты пользователей,
-                    возможность создавать и размещать статьи для общего доступа и другое;  
+                -- данное приложения является Pet проектом, который призван отразить максимальное кол-во мои знаний в среде Web разработки. Приложение пишется на React JS с использованием Bootstrap для стилизации. В будущем планируется реализовать регистрацию и авторизацию на сервисе, полноценные личные кабинеты пользователей, возможность создавать и размещать статьи для общего доступа и другое;  
                 </p>
               </div>
               <div>
                 <p class="none_pad"> - <a href="https://artem-xopc.github.io/JScalculator/" target="_blank" >Калькулятор</a>
-                    -- Простой калькулятор с расширенными возможностями;
+                    -- простой калькулятор, логика которого была написана с мной нуля;
                 </p>
               </div>
               <div>
                 <p class="none_pad"> - <a href="https://artem-xopc.github.io/Change-Color-By-Artem-Xopc/" target="_blank">Change Color</a>
-                    -- Это приложение было написано по курсу на YouTube и является первым полноценным приложением. 
-                       В этом приложении можно настроить собственную цветовую гамму и затем поделиться ей с другим человеком, посредством 
-                       копирования ссылки в адресной строке. В этой ссылке встроены выбранные цвета и при переходе по ссылке открывается
-                       выбранная отправителем цветовая гамма;
+                    -- это приложение было написано по курсу на YouTube и является первым полноценным приложением. В этом приложении можно настроить собственную цветовую гамму и затем поделиться ей с другим человеком, посредством копирования ссылки в адресной строке. В этой ссылке встроены выбранные цвета и при переходе по ссылке открывается выбранная отправителем цветовая гамма.
                 </p>
               </div>
+            </div>
+
+            <h4>
+              Художественные проекты (пример адаптивной вёрстки с разнообразными визуальными эффектами):
+            </h4>
+            <div>
+              <p class="none_pad"> - <a href="/fantasy/index.html">О книге</a>
+                  -- данный небольшой проект наполнен визуальными эффектами, такими как параллакс, плавный скролл и другие. Он также является примером адаптивной вёрстки под устройства с разным разрешением и соотношением сторон;
+              </p>
+            </div>
+            <div>
+              <p class="none_pad"> - <a href="/wicher/index.html">Приложение с параллакс скроллом</a>
+                  -- этот небольшой проект также является примером адаптивной вёрстки с параллакс эффектом и световыми частицами с хаотичным движением;
+              </p>
             </div>
           </div>
       </div>
@@ -144,25 +158,33 @@
 
       <h1 class="connect">
         Связаться со мной Вы можете, перейдя в Telegram:
-        <a href="https://t.me/artem_xopc" target="_blank">Написать мне</a>
+        <a href="https://t.me/artem_xopc" target="_blank">написать мне</a>
       </h1>
 
       <hr class="footer_line" />
 
       <div class="footer">
         <div class="footer_content">
-          <a href="https://t.me/log_of_proger" target="_blank"
-            ><img class="teleg" src="./icons/telegram.svg"
-          /></a>
-          <a href="https://vk.com/artem_xopc" target="_blank"
-            ><img class="vkon" src="./icons/vk.svg"
-          /></a>
-          <a href="https://github.com/artem-xopc" target="_blank"
-            ><img class="git" src="./icons/github.svg"
-          /></a>
-          <a href="https://www.youtube.com/@artem_xopc" target="_blank"
-            ><img class="youtube" src="./icons/youtube.svg"
-          /></a>
+          <div class="content__teleg">
+            <a href="https://t.me/log_of_proger" target="_blank"
+              ><img class="teleg" src="./icons/telegram.svg"
+            /></a>
+          </div>
+          <div class="content__vk">
+            <a href="https://vk.com/artem_xopc" target="_blank"
+              ><img class="vkon" src="./icons/vk.svg"
+            /></a>
+          </div>
+          <div class="content__git">
+            <a href="https://github.com/artem-xopc" target="_blank"
+              ><img class="git" src="./icons/github.svg"
+            /></a>
+          </div>
+          <div class="content__yt">
+            <a href="https://www.youtube.com/@artem_xopc" target="_blank"
+              ><img class="youtube" src="./icons/youtube.svg"
+            /></a>
+          </div>
         </div>
       </div>
       <!-- <form action="/">
